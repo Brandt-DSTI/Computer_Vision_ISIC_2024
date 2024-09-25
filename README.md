@@ -90,8 +90,8 @@ https://www.datasciencetech.institute/
 
 Contact
 
-Brandt-DSTI - brandt.olson@edu.dsti.institute < br/>
-AurelieM23 - aurelie.maugein@edu.dsti.institute < br/>
+Brandt-DSTI - brandt.olson@edu.dsti.institute <br />
+AurelieM23 - aurelie.maugein@edu.dsti.institute <br />
 Hugo974 - hugo.boileau@edu.dsti.institute
 
 Project Link: [https://github.com/Brandt-DSTI/Breast_Cancer_Survival-Analysis](https://github.com/Brandt-DSTI/Computer_Vision_ISIC_2024)
