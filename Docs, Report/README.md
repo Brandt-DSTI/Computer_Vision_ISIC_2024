@@ -12,7 +12,7 @@ Best models:<br />
   ENB0_best_model.pth <br />
   SQNet_best_model.pth <br />
 
-Best hyperparameters:
+Best hyperparameters:<br />
   ENB0_current_best_hyperparameters.pth <br />
   SQNet_current_best_hyperparametrs.pth <br />
 
