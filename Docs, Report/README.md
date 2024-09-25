@@ -7,14 +7,15 @@ and the initial problem analysis
 VSURF Features.md - ranked importance features selected for incoporating into the model. 
 
 Two computer vision models where trained for this project, one using EffecientNetB0 and the other SqueezeNet
-Best models:
-  ENB0_best_model.pth
-  SQNet_best_model.pth
+
+Best models:<br />
+  ENB0_best_model.pth <br />
+  SQNet_best_model.pth <br />
 
 Best hyperparameters:
-  ENB0_current_best_hyperparameters.pth
-  SQNet_current_best_hyperparametrs.pth
+  ENB0_current_best_hyperparameters.pth <br />
+  SQNet_current_best_hyperparametrs.pth <br />
 
-Logs:
-ENB0_hyperparameters_log.json
-SQNet_hyperparameters_log.json
+Logs: <br />
+ENB0_hyperparameters_log.json <br />
+SQNet_hyperparameters_log.json <br />
