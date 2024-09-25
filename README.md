@@ -1,10 +1,22 @@
 # Computer_Vision_ISIC_2024
 DSTI, MsC Applied Data Science Project
 
-# Breast_Cancer_Survival-Analysis
-DSTI, MsC Applied Data Science Project
+Deep Learning with python project : ISIC 2024 Challenge, Skin Cancer Classification 
+Using Deep Learning, a Kaggle hosted competition
 
-This project aims to analyse and predict the survival of breast cancer patients using various statistical methods and machine learning models. The analysis includes data processing, visualization, and model building to explore factors that influence patient survival.
+Skin cancer is a significant global health concern, with melanoma being its deadliest form. 
+Early detection is crucial for effective treatment and improved patient outcomes. 
+The International Skin Imaging Collaboration (ISIC) has organized the 2024 challenge to develop advanced 
+deep learning models for binary classification of skin lesion images. This study aims to create a robust 
+and accurate diagnostic tool to assist in triaging potential skin cancer cases, particularly in settings 
+without access to specialized dermatologic care.
+
+Two pretrained models where used for the challenge, EfficientNetBO and SqueezeNet.
+Both models utilise features selected using Variable Selection using Random Forest (VSURF) and 
+have had their hyperparameters optimised using Bald Eagle Search (BES).
+
+Note: VSURF is an R libray. 
+
 
 ## Table of Contents
 - [Installation](#installation)
@@ -20,32 +32,31 @@ This project aims to analyse and predict the survival of breast cancer patients 
 
 1. **Clone the repository:**
    ```bash
-   git clone github.com/Brandt-DSTI/Computer_Vision_ISIC_2024
+   git clone github.com/Brandt-DSTI/Computer_Vision_ISIC_2024.git
 
-2. Ensure you have R installed (version 4.3.1 recommended).
-
-3. Install dependencies:
-
-install.packages("renv")
-renv::restore()
-
-Open the project in RStudio:
-
-Open Breast_Cancer_Survival_Analysis.Rproj.
+2. The python notebooks have been developed in Google Lab and will
+   not execute locally without significant modification, use
+   the badges at the top of each notebook to load the notebooks in Colab.
+   More detail in the README in the Python Notebook folder.
+   
+3. The Kaggle notebooks have been developed in Kaggle and will
+   not execute locally as they require the competition environment to execute.
+   More detail in the README in the Python Notebook folder.
+   
+4. Features were selected using the R VSURF libary, R Studio version 4.3.1 is recommended
+   to explore this code. More detail in the README in the R Code folder.
 
 ## Usage
 
-To run the main analysis:
-Run the script to generate the outputs.
+Run the notebooks per the instructions found with the associated README.
 
-You can also view the full analysis report here: https://github.com/Brandt-DSTI/Breast_Cancer_Survival-Analysis/blob/main/Report/Survival%20Analysis%20Report_Team%207.pdf 
+You can also view the full analysis report here: https://github.com/Brandt-DSTI/Computer_Vision_ISIC_2024/blob/main/Docs%2C%20Report/DL%20Project%20report_v.1.pdf
 
 ## Features
 
-Survival Analysis: Perform Cox proportional hazards modeling, and more.
-Data Visualisation: Generate plots and visual summaries of the data.
-Modeling: Implement machine learning models to predict patient survival.
-Interactive Reports: Render reports in HTML and Markdown formats for easy sharing and visualisation.
+Feature Analysis: VSURF analysis of features
+Model Analysis: AUC, F1 and modified pAUC score to predict competition performance
+Modeling: Implement computer vision models to predict if a skin lesion is benign or malignent
 
 ## Project Structure
 ```
