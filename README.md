@@ -60,14 +60,13 @@ Modeling: Implement computer vision models to predict if a skin lesion is benign
 
 ## Project Structure
 ```
-/Breast_Cancer_Survival-Analysis/
-├── R/                       # R code and scripts for analysis
-├── Report/                  # Summarised analysis of project
-├── data/                    # Raw data
-├── docs/                    # HTML and markdown of scripts
-├── .Rprofile                # To load packages
-├── README.md                # Project overview and instructions
-└── renv.lock                # Lockfile for package dependencies
+/Computer_Vision_ISIC_2024/
+├── Colab Notebooks/         # Python code for Colab environment
+├── Docs, Report/            # Project documentation, summarised analysis of project
+├── Kaggle Notebooks/        # Python code for Kaggle environment
+├── R Code                   # R Code for use with R Studio
+├── Data.md                  # Links to data
+└── README.md                # Overview project and instructions
 ```
 ## Contributing 
 
@@ -79,7 +78,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 4. Push to the branch (git push origin feature/AmazingFeature).
 5. Open a pull request.
 
-See CONTRIBUTING.md for more details.
 
 ## License
 
@@ -90,10 +88,10 @@ Acknowledgements
 Thanks to DSTI for providing the educational environment that inspired this project.
 https://www.datasciencetech.institute/
 
-Uses the survival, survminer, ggplot2, and other R packages.    
-
 Contact
 
 Brandt-DSTI - brandt.olson@edu.dsti.institute
+AurelieM23 - aurelie.maugein@edu.dsti.institute
+Hugo974 - hugo.boileau@edu.dsti.institute
 
-Project Link: https://github.com/Brandt-DSTI/Breast_Cancer_Survival-Analysis
+Project Link: [https://github.com/Brandt-DSTI/Breast_Cancer_Survival-Analysis](https://github.com/Brandt-DSTI/Computer_Vision_ISIC_2024)
