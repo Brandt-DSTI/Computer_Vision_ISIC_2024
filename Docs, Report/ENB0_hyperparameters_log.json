@@ -1,0 +1,18 @@
+{
+    "timestamp": "2024-09-11T05:04:56.669103",
+    "model": "EfficientNet-B0",
+    "dataset": {
+        "name": "ISIC 2024 Challenge",
+        "total_samples": 401059,
+        "benign_samples": 400666,
+        "malignant_samples": 393
+    },
+    "hyperparameters": {
+        "learning_rate": 0.0005840300874312871,
+        "batch_size": 90,
+        "dropout_rate": 0.4277829787346208
+    },
+    "performance_metrics": {
+        "val_f1": 0.08284023668639053
+    }
+}

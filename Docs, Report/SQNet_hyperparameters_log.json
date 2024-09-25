@@ -1,0 +1,17 @@
+{
+    "timestamp": "2024-09-12T08:04:37.721922",
+    "model": "SqueezeNet",
+    "dataset": {
+        "name": "ISIC 2024 Challenge",
+        "total_samples": 401059,
+        "benign_samples": 400666,
+        "malignant_samples": 393
+    },
+    "hyperparameters": {
+        "learning_rate": 0.00014742482211184204,
+        "dropout_rate": 0.1
+    },
+    "performance_metrics": {
+        "val_f1": 0.0821917808219178
+    }
+}
